@@ -24,7 +24,7 @@ realistic projects.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://qr-code-dk.netlify.app)
+- Live Site URL: [QR Code App](https://qr-code-dk.netlify.app)
 
 ## My process
 
