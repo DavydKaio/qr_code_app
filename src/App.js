@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App grid place-items-center">
+      <div
+        className="grid place-items-center h-screen w-full bg-[#d6e2f0] max-w-[1440px]
+      sm:max-w[375px]">
+        {/* Card */}
+        <Card />
+
+        <div className="text-sm sm:flex">
+          <p>
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              rel="noreferrer"
+              target="_blank"
+              className="text-blue-600 mx-1">
+              Frontend Mentor
+            </a>
+          </p>
+          <p>
+            Coded by
+            <a
+              href="https://www.frontendmentor.io/profile/DavydKaio"
+              rel="noreferrer"
+              target="_blank"
+              className="text-blue-600 ml-1">
+              DK
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
